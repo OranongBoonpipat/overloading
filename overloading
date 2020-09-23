@@ -6,7 +6,7 @@ using namespace std;
 void DisplayMenu();
 float Area(const float Radius);
 float Area(const float Length, const float Widht);
-float Area(const double based, const double high);
+double Area(const double based, const double high);
 int main()
 {	
 	char Choice;
@@ -55,7 +55,7 @@ float Area(const float Length, const float Widht)
 {
 	return(Length * Widht);
 }
-float Area(const double based, const double high)
+double Area(const double based, const double high)
 {
 	return(0.5 * based * high);
 }
